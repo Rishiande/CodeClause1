@@ -1,0 +1,31 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: url('https://i.imgur.com/MS7Wsp5.png') repeat-x 0 0 #1b1b1b;
+    color: white;
+    animation: colorChange 10s infinite;
+  }
+  
+  #output {
+    display: none;
+  }
+  
+  /* Generate a random color for the background */
+  @keyframes colorChange {
+    0% {
+      background-color: #FFC107;
+    }
+    25% {
+      background-color: #FF5733;
+    }
+    50% {
+      background-color: #C70039;
+    }
+    75% {
+      background-color: #900C3F;
+    }
+    100% {
+      background-color: #581845;
+    }
+  }
+  
